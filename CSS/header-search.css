@@ -1,0 +1,167 @@
+
+/* search-con begin */
+.search-con {
+    height: 105px;
+}
+
+.search-logo {
+    display: inline-flex;
+    background-color: #fff;
+    height: 105px;
+    align-items: center;
+}
+
+.search-main {
+    width: 1200px;
+    margin: 0 auto;
+    height: 105px;
+}
+
+.search-div {
+    display: inline-block;
+    width: 535px;
+    top: -32px;
+    left: 170px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#search-fo {
+    /* border: 1.5px solid #b1191a; */
+    border-style: solid;
+    border-color: #b1191a;
+    border-width: 2px 0 2px 2px;
+}
+
+.inp {
+    box-sizing: border-box;
+    padding: 0 5px;
+    width: 452px;
+    height: 32px;
+    border: none;
+    outline: none;
+}
+
+.inp-but {
+    position: absolute;
+    top: 1.5px;
+    right: 0;
+    width: 83px;
+    height: 33px;
+    border: none;
+    background-color: #b1191a;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.underinput {
+    min-width: 1220px;
+    top: -40px;
+    margin-left: -23px;
+    position: relative;
+    text-align: center;
+}
+
+.underinput a {
+    color: #666666;
+    font-size: 12px;
+    margin: 0 9px;
+}
+
+.underinput a:hover {
+    color: #c81623;
+}
+
+.shoppingcar {
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    width: 138px;
+    height: 33px;
+    font-size: 12px;
+    line-height: 33px;
+    text-align: center;
+    left: 988px;
+    top: -100px;
+    position: relative;
+    display: inline-block;
+}
+.car-tip{display: inline-block;position: absolute;}
+.car-tip1{
+    width: 10px;
+    height: 10px;
+    background: #e60012;
+    display: inline-block;
+    position: relative; top: -12px;
+    }
+.car-tip2{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: #e60012;
+        border-radius: 50%;
+        color: white !important;
+        font-size: 12px;
+        line-height: 15px;
+        position: absolute;
+      right: -5px; 
+      top: -6px;
+    }
+.shoppingcar a {
+    color: #666666;
+}
+/* 
+ <div class="header">
+            <!-- 顶栏开始 -->
+           
+            <!-- 顶栏结束 -->
+            <!-- 搜索框开始 -->
+            <div class="search-con">
+                <div class="search-main">
+                    <div class="search-logo">
+                        <img src="http://www.bmglpt.com:8080/WebFiles/PublicFiles/images/pinyougou/images/logo.png"
+                            alt="">
+                    </div>
+                    <div class="search-div">
+                        <form action="" id="search-fo">
+                            <div class="search-inputdiv">
+                                <input type="text" class="inp" autofocus="autofocus" placeholder="请输入搜索内容">
+                            </div>
+                            <button class="inp-but">搜索</button>
+                        </form>
+                    </div>
+
+                    <div class="underinput">
+                        <a href="">优惠购首发</a>
+                        <!--
+                         --><a href="">亿元优惠</a>
+                        <!--
+                        --><a href="">9.9元团购</a>
+                        <!--
+                     --><a href="">美满99减30</a>
+                        <!--
+                     --><a href="">办公用品</a>
+                        <!--
+                     --><a href="">电脑</a>
+                        <!--
+                     --><a href="">通信</a>
+                    </div>
+
+                    <div class="shoppingcar">
+                        <img src="./切片img/购物车.png" alt="购物车">
+                        <a href="">我的购物车</a><i class="iconfont icon-ctrl"></i>
+                         <div class="car-tip">
+                            <a href="" class="car-tip1"></a>
+                            <a href="" class="car-tip2">8</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 搜索框结束 -->
+        </div>
+        <!-- header end -->
+         */

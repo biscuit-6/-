@@ -1,0 +1,124 @@
+
+
+.header-topest {
+    background-color: #f1f1f1;
+    height: 30px;
+    color: #666666;
+    font-size: 12px;
+    position: relative;
+    line-height: 30px;
+}
+
+.header-topleft a {
+    color: #666666;
+}
+
+.header-topleft a:nth-child(3),
+.header-toper a:hover {
+    color: #c81623;
+}
+
+.header-toper {
+    width: 1200px;
+    height: 30px;
+    /* position: absolute; */
+    margin: auto;
+}
+
+.padd-htl {
+    margin: 0 5px 0 6px;
+}
+
+/* @font-face {
+    font-family: 'fonts';
+    src: url('./fonts/icomoon.eot');
+    src: url('./fonts/icomoon.svg') format('svg'),
+        url('./fonts/icomoon.ttf') format('truetype'),
+        url('./fonts/icomoon.woff') format('woff');
+} */
+
+/* @font-face {
+    font-family: 'icomoon';
+    src: url('../icomoon/fonts/icomoon.eot');
+    src: url('../icomoon/fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'),
+        url('../icomoon/fonts/icomoon.ttf?3a2xdr') format('truetype'),
+        url('../icomoon/fonts/icomoon.woff?3a2xdr') format('woff'),
+        url('../icomoon/fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+.iconfont {
+    font-family: 'icomoon' !important;
+    font-size: 12px;
+    color: #666666;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.header-topleft {
+    /* display: inline-block; */
+    position: relative;
+    left: 0;
+    width: 220px;
+    height: 30px;
+    float: left;
+}
+
+.header-topright {
+    /* display: inline-block; */
+    position: relative;
+    right: 0;
+    /* width: 660px; */
+    height: 30px;
+    float: right;
+}
+
+.header-topright li {
+    list-style: none;
+    margin: 0 4px;
+    display: inline-block;
+}
+
+.header-topright a {
+    color: #666666;
+}
+
+.padd-htr {
+    padding: 0 5px;
+}
+
+/* 
+<!-- 顶部开始 -->
+<div class="header">
+    <!-- 顶栏开始 -->
+    <div class="header-topest">
+        <div class="header-toper">
+            <p class="header-topleft"><span>品优购欢迎您！</span><a href="" class="padd-htl">请登录</a><a href=""
+                    class="padd-htl">免费注册</a></p>
+
+            <ul class="header-topright">
+                <li><a href="" class="padd-htr">我的订单</a></li>
+                <li style="height: 9px;width: 0;border-right: 1px solid #666666;"></li>
+                <li><a href="" class="padd-htr">我的品优购</a><i class="iconfont icon-ctrl3"></i></li>
+                <li style="height: 9px;width: 0;border-right: 1px solid #666666;"></li>
+                <li><a href="" class="padd-htr">品优购会员</a></li>
+                <li style="height: 9px;width: 0;border-right: 1px solid #666666;"></li>
+                <li><a href="" class="padd-htr">企业采购</a></li>
+                <li style="height: 9px;width: 0;border-right: 1px solid #666666;"></li>
+                <li><a href="" class="padd-htr">关注品优购</a><i class="iconfont icon-ctrl3"></i></li>
+                <li style="height: 9px;width: 0;border-right: 1px solid #666666;"></li>
+                <li><a href="" class="padd-htr">客户服务</a><i class="iconfont icon-ctrl3"></i></li>
+                <li style="height: 9px;width: 0;border-right: 1px solid #666666;"></li>
+                <li><a href="" class="padd-htr">网站导航</a><i class="iconfont icon-ctrl3"></i></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 顶栏结束 --> 
+    <!-- 搜索框开始 --> 
+    
+    <!--搜索框结束-->
+</div>    
+    
+    */

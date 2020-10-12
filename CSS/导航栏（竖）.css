@@ -1,0 +1,54 @@
+.guiding {
+    height:100%;
+   right:  0px;
+    margin: 0;
+    position: fixed;
+    top: 120px;
+    z-index: 3;
+}
+
+.middle {background-color: rgb(41, 149, 192);position: relative;
+    text-align: center;
+    margin:auto;width: 40px;
+    height: 400px;
+    /* padding: 5px; */
+}
+
+.font {
+    text-decoration: none;
+    font: yahei;
+    font-size: 23px;
+    color: black;padding:8px;
+    display: block;
+}
+.font:hover{
+    color: white;
+}
+.sound-code{
+    display: none;
+    position: absolute;
+    border: 1px solid #e5e5e5;
+    background-color: rgba(253, 253, 253, 0.96);
+    overflow: auto;
+    right: 40px;
+    top: 0;
+    width: 450px;
+    height: 600px;
+    text-align: left;
+}
+.font:hover+.sound-code,.sound-code:hover{
+    display: block; 
+}
+
+/* 
+<div class="guiding" style="z-index: 1000;">
+<div class="middle"><a class="font" href="../首页.html">首页</a>
+    <a class="font" href="">上一题</a>
+    <a class="font" href="">下一题</a>
+    <a class="font" href="">源码</a>
+    <div class="sound-code">
+        <xmp></xmp>
+    </div>
+</div>
+</div>
+ */

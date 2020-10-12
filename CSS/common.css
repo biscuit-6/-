@@ -1,0 +1,69 @@
+/*公共样式*/
+/* .fl {
+	float: left;
+}
+.fr {
+	float: right;
+} */
+/*版心*/
+/* .w {
+	width: 1200px;
+	margin: 0 auto;
+} */
+body,
+div,
+p,
+ul,
+li,
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;color: inherit;
+}
+
+i {
+    font-style: normal;
+}
+.banxin {
+    width: 1200px;
+    margin: 0 auto;
+}
+ul,
+li {
+	list-style: none;
+}
+  /* 精灵图1 */
+  .foot-img1,
+  .foot-img2,
+  .foot-img3,
+  .foot-img4,
+  .foot-img5,
+  .fimg span::before,
+  .maybe-afloat::after,.img-gift,.join-shoppingc::before{
+	  background-image: url('../images/icons.png');
+	  background-repeat: no-repeat;
+  }
+  .maybe-money,
+  .hot-5divacon h3 {
+      font-size: 16px;
+      color: #df3033;
+  }
+  .font12-6 {
+    font-size: 12px;
+    color: #666666;
+}
+  .font-r {
+    color: #c81623 !important;
+}
+.bgc-red {
+    background-color: #c81623;
+    padding: 3px;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+}
+

@@ -1,0 +1,57 @@
+.tomargin-left {
+    margin-left: 207px;
+    width: 903px;
+    line-height: 45px;
+}
+
+.divider-div {
+    border-bottom: 2px solid #b1191a;
+}
+
+.divider-menu {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.divider-menu a {
+    color: #333333;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.divider-menu a:hover {
+    color: #c81623;
+}
+
+.commodity-menuhead {
+    width: 207px;
+    height: 45px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin-top: -45px;
+    line-height: 45px;
+    position: absolute;
+}
+/* 
+<div class="divider-div">
+            <div class="divider-menu">
+                <div class="tomargin-left">
+                    <a href="" style="margin-left: 53px;">服装城 </a>
+                    <a href="">美妆馆</a>
+                    <a href="">传智超市</a>
+                    <a href="">全球购</a>
+                    <a href="">闪购</a>
+                    <a href="">团购</a>
+                    <a href="">拍卖</a>
+                    <a href="">有趣</a>
+                </div>
+            </div>
+        </div>
+*/
+/* 菜单栏的红色矩形
+<div class="commodity-menuhead">
+                    <span>全部商品分类</span>
+                </div>
+*/

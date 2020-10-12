@@ -1,0 +1,27 @@
+/* 结算商品图片展示 */
+.selected-view div{
+    display: inline-block;
+}
+.selected-view img{
+    width: 40%;
+}
+.selected-view span{
+    color: red;
+}
+/* 表格  删除字体 */
+.delete{
+    color: rgb(248, 105, 48);
+}
+/* 合计 */
+#cartTable{
+    margin: auto;
+}
+.total{
+    width: 200px;
+    padding: 15px;
+    background-color: rgb(255, 173, 96);
+    border-radius: 5px;
+}
+.selected{
+    padding: 15px;display: inline-block;
+}

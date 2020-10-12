@@ -1,0 +1,302 @@
+
+/* 全部商品 开始 */
+/* 字体 “全部商品” */
+.h3-16red {
+    color: #c81623;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 0;
+}
+
+/* 全部商品 菜单栏开始 */
+.allgoods-ul {
+    display: grid;
+    grid-template-columns: 255px 360px 120px 195px 160px 110px;
+    grid-template-rows: 35px;
+    border: 1px solid #dddddd;
+    background-color: #f5f5f5;
+}
+
+.agoods-item {
+    line-height: 35px;
+    color: #666666;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.rows-son3,
+.agoods-item4 {
+    justify-self: center;
+}
+
+.goods-label {
+    background-color: #f2f2f2;
+    border: 1px solid #999999;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 5px;
+}
+
+/* 复选框精灵图 */
+#allcheck:checked+.goods-label,
+#check1th:checked~.rows1 .rows-son1 .goods-label,
+#checkzy:checked+label,
+#check2th:checked~.rows2 .rows-son1 .goods-label,
+#check3th:checked~.rows3 .rows-son1 .goods-label,
+#check4th:checked~.rows4 .rows-son1 .goods-label,
+#check5th:checked~.rows5 .rows-son1 .goods-label,
+#checkh1:checked~.checkh1 label
+/* #allcheckdel:checked+.goods-label, */
+{
+    background: url("./images/checked.png") no-repeat center;
+}
+
+#check1th:checked~.rows1,
+#check2th:checked~.rows2,
+#check3th:checked~.rows3,
+#check4th:checked~.rows4,
+#check5th:checked~.rows5 {
+    background-color: #feedef;
+}
+
+.under-menu {
+    height: 45px;
+    border-bottom: 1.5px solid #dddddd;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+/* 字体样式 */
+
+.font12-3 {
+    font-size: 12px;
+    color: #333333;
+}
+
+.font12-9 {
+    font-size: 12px;
+    color: #999999;
+}
+
+.fontred {
+    color: #c81623 !important;
+}
+
+/* 字体样式 结束 */
+#checkzy+label {
+    margin-bottom: 3px;
+}
+
+/* 购物清单 开始 */
+.shoppinglist {
+    display: grid;
+    grid-template-rows: 110px 205px 110px 110px;
+}
+
+.shoppinglist2 {
+    display: grid;
+    grid-template-rows: 205px;
+}
+
+/*清单 行 */
+.rows {
+    display: grid;
+    grid-template-columns: 615px 120px 195px 160px 110px;
+    padding: 13px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* 第一行 */
+.rows1,
+.rows6 {
+    border-top: 1px solid #dddddd;
+
+}
+
+.top-70 {
+    position: relative;
+    top: -70px;
+}
+
+.img-gift {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+
+.img-gift {
+    background-position: -525px -77px;
+    margin-top: 2px;
+    vertical-align: bottom;
+
+}
+
+.rows-son1font2 {
+    margin: 0 0 0 25px;
+    position: relative;
+    top: -69px;
+}
+
+.rows-son1font1 {
+    display: inline-block;
+    position: relative;
+    top: -39px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.money {
+    font-size: 14px;
+    color: #333333;
+}
+
+/* 加减按钮 */
+.numbutton {
+    border: 1px solid #dddddd;
+    display: grid;
+    grid-template-columns: 30px 40px 30px;
+    grid-template-rows: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+}
+
+.but1,
+.num {
+    border-right: 1px solid #dddddd;
+}
+
+.rows21-zp {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    margin-left: 55px;
+}
+
+.paybutton {
+    background-color: #e60012;
+    position: absolute;
+    right: 0;
+    height: 40px;
+    width: 110px;
+    text-align: center;
+    line-height: 40px;
+    bottom: -1px;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.del-tip {
+    height: 50px;
+    line-height: 50px;
+}
+
+.repurchase {
+    height: 32px;
+    background-color: #fffdee;
+    line-height: 32px;
+    display: grid;
+    grid-template-columns: 540px 308px 185px 170px;
+}
+
+.repurchase span:nth-of-type(1) {
+    margin-left: 15px;
+}
+
+.repurchase div a {
+    margin: 10px;
+}
+
+/* 猜你喜欢 特惠购物 开始 */
+.shoppingcar-like {
+    position: relative;
+    margin-top: 20px;
+}
+
+.like-title {
+    height: 40px;
+    background-color: #f1f1f1;
+}
+
+.like-title a {
+    display: inline-block;
+    width: 85px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    box-sizing: border-box;
+}
+
+.like-contentdiv {
+    display: flex;
+    border-style: dashed none dashed dashed;
+    border-width: 1px;
+    border-color: #dddddd;
+    width: 990px;
+    height: 305px;
+    margin: 20px;
+}
+
+.like-contentdiv>div {
+    flex: 1;
+    border-right: 1px dashed #dddddd;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.like-img {
+    background: url("./images/shoppingcar猜你喜欢.png") no-repeat center;
+    width: 238px;
+    height: 243px;
+    display: inline-block;
+}
+
+.like-img1 {
+    background-position: -7px -8px;
+}
+
+.like-img2 {
+    background-position: -256px -9px;
+}
+
+.like-img3 {
+    background-position: -503px -9px;
+}
+
+.like-img4 {
+    background-position: -750px -9px;
+}
+
+.join-shoppingc {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+.join-shoppingc::before {
+    background-position: -416px -135px;
+    width: 28px;
+    height: 22px;
+    /* 用::before、::after伪元素插入精灵图时，要记得加入以下两个属性*/
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+}
